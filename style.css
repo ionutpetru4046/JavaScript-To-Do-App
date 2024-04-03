@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: yellow;
+}
+
+html {
+    background-color: #6c757d;
+}
+
+.adauga_obiective {
+    margin: 35px;
+}
+
+h1 {
+    text-align: center;
+    padding-top:25px ;
+    font-size: 48px;
+    font-style: bold;
+}
+
+.obiective {
+    margin: 25px;
+}
+
+.obiective > div {
+    width: 33.33%;
+    float: left;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.obiective > div li:hover {
+    background-color: #6c757d;
+    cursor: pointer;
+}
+
+.obiective > div h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    margin-bottom:20px ;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.form-control {
+    margin-top: 20px;
+}
